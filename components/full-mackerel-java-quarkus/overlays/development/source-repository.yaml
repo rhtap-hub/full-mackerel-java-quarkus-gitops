@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: full-mackerel-java-quarkus-repository
+spec:
+  url: https://github.com/rhtap-hub/full-mackerel-java-quarkus
